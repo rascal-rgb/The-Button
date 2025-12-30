@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>The Button</title>
+
+  <!-- iPhone “app-like” -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="The Button">
+
+  <!-- PWA -->
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="apple-touch-icon" href="icon-192.png">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <main class="card">
+    <div class="halo" aria-hidden="true"></div>
+
+    <h1>The Button</h1>
+    <p class="subtitle">One loving message, once a day. ♡</p>
+
+    <section class="messageWrapper">
+      <p id="message" class="message">Press the button to see today’s message 💛</p>
+    </section>
+
+    <button id="theButton" type="button">The Button</button>
+
+    <p class="note">Same message all day. A new one arrives tomorrow.</p>
+    <p class="footer">Crafted with love.</p>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
